@@ -1,0 +1,441 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,600&family=Lato:wght@100;300;400;700;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Mulish:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&family=Sono:wght@400;600;700&display=swap");
+
+body {
+  overflow-x: hidden;
+}
+.row {
+  margin: 0 !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-nav {
+  margin-left: 300px;
+}
+
+.nav-item {
+  /* position: relative; */
+  margin-right: 22px !important;
+}
+
+.home-link {
+  color: #1f1534;
+  font-family: "Mulish";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.home-link2 {
+  color: #1f1534;
+  font-family: Mulish;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+}
+.home-link-div {
+  /* margin-left: 100px; */
+  /* position: absolute;
+  right: 10px; */
+  margin-left: 500px;
+}
+
+.virtual-div {
+  margin-top: 180px;
+}
+.virtual-header {
+  color: #000;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.trafalgar-para {
+  color: #7d7987;
+  font-family: "Mulish";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px; /* 152.381% */
+}
+
+.btn-style {
+  border-radius: 55px;
+  background-color: #458ff6;
+  width: 200px;
+  height: 56px;
+  border: none;
+  color: #fff;
+}
+
+.img-header {
+  margin-top: 84px;
+  width: 693px;
+  height: 598px;
+}
+.service-section {
+  text-align: center;
+  margin-top: 192px;
+}
+
+.service-header {
+  color: #000;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+.rect-img {
+  width: 56px;
+  height: 2px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #000;
+}
+
+.rect-para {
+  color: #7d7987;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 25px;
+}
+
+.card-div {
+  margin-top: 80px;
+}
+.card {
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+  background: #fff;
+
+  /* drop shadow */
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+  padding-left: 37px;
+  padding-right: 40px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.img1 {
+  width: 90px;
+  height: 90px;
+  flex-shrink: 0;
+}
+.headerClass1 {
+  color: #000;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  margin-top: 22px;
+}
+.textClass1 {
+  color: #7d7987;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+}
+.card2 {
+  margin-top: 30px;
+}
+.btn-div2 {
+  text-align: center;
+}
+.button2 {
+  background: #fff;
+  color: #458ff6;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+
+  border-radius: 55px;
+  border: 1.4px solid #458ff6;
+  margin-top: 70px;
+}
+
+.leadingImg-div {
+  margin-top: 200px;
+}
+
+.leadingImg {
+  width: 650px;
+  height: 477px;
+  flex-shrink: 0;
+}
+
+.leading-sec {
+  margin-top: 277px;
+  margin-left: 130px;
+}
+
+.leading-header {
+  color: #000;
+  font-family: Mulish;
+
+  font-style: normal;
+  font-weight: 700;
+}
+.leading-para {
+  color: #7d7987;
+  font-family: Muli;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.download-sec {
+  margin-top: 240px;
+}
+
+.dedicated-para {
+  color: #7d7987;
+  font-family: Mulish;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 166.667% */
+  margin-top: 28px;
+}
+.button3 {
+  margin-top: 30px;
+}
+
+.leadingImg2-div {
+  margin-top: 150px;
+}
+
+.row-cont {
+  width: 1120px;
+  height: 425px;
+  flex-shrink: 0;
+  margin-top: 255px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 64px;
+  padding-left: 100px;
+  color: #fff;
+  border-radius: 24px;
+  background: linear-gradient(208deg, #67c3f3 9.05%, #5a98f2 76.74%);
+}
+.cust-div {
+  text-align: center;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.rect-div {
+  width: 56px;
+  height: 2px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.faceImg3 {
+  margin-top: 75px;
+}
+
+.edward-div {
+  margin-top: 100px;
+}
+
+.dedi-div {
+  margin-top: 80px;
+}
+
+.dedi-para {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 157.895% */
+}
+
+.latest-cont {
+  text-align: center;
+}
+
+.latest-div {
+  margin-top: 270px;
+  color: #000;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.card2-cont {
+  margin-top: 72px;
+}
+.card2Details {
+  width: 350px;
+  height: 512px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+
+  /* drop shadow */
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+  position: relative;
+}
+
+.imgDetails2 {
+  width: 350px;
+  height: 246px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 0;
+  /* left: 0; */
+  z-index: 100;
+  display: block;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card2-header {
+  margin-top: 230px;
+  color: #000;
+  font-family: Mulish;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 152.381% */
+}
+
+.card2-para {
+  color: #7d7987;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+}
+
+.card2-para2 {
+  color: #4089ed;
+  font-family: Mulish;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 164.706% */
+}
+
+.btn4-div {
+  text-align: center;
+}
+.button4 {
+  margin-top: 80px;
+}
+
+.foot-sec {
+  margin-top: 200px;
+
+  height: 432px;
+  flex-shrink: 0;
+  padding-top: 110px;
+  background: linear-gradient(183deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+
+.foot-logo1 {
+  position: relative;
+}
+
+.foot-logo3 {
+  position: absolute;
+  top: 12px;
+  left: 27px;
+  display: block;
+}
+.foot-logo2 {
+  margin-left: 12px;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.foot-para1 {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: 22px;
+}
+.foot-para2 {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+}
+
+.foot-comp-header {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
